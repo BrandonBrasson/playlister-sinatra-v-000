@@ -80,7 +80,7 @@ puts describe "Song Forms" do
     end
   end
 
-  describe "/songs/:slug/edit" do
+  puts describe "/songs/:slug/edit" do
     before do
       @song = Song.create(name: song_name)
       artist = Artist.create(name: artist_name)
