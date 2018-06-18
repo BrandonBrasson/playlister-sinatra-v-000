@@ -35,7 +35,7 @@ puts describe "Genre" do
     expect(genre.slug).to eq("alternative-rock")
   end
 
-  describe "Class methods" do
+puts  describe "Class methods" do
     it "given the slug can find a genre" do
       genre = Genre.create(:name => "Alternative Rock")
       slug = "alternative-rock"
